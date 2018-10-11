@@ -1,19 +1,21 @@
 {
-
-  "manifest_version": 2,
-  "name": "Twitch Channel",
-  "description": "Display Twitch channel to watch.",
-  "version": "1.0",
   "applications": {
     "gecko": {
-      "strict_min_version": "54.0a1"
+      "strict_min_version": "58.0a1"
     }
   },
-  "author": "Kyaw Thura",
-  "sidebar_action": {
+  "browser_action": {
+    "browser_style": true,
+    "default_title": "Twitch Channel",
     "default_icon": "icons/twitch.png",
-    "default_title" : "Twitch Channel",
-    "default_panel": "panel.html"
+    "default_popup": "panel.html"
   },
-  "permissions": ["tabs"]
+  "description": "Display Twitch channel to watch.",
+  "manifest_version": 2,
+  "name": "Twitch Channel",
+  "permissions": [
+    "tabs"
+  ],
+  "version": "1.0"
 }
+
