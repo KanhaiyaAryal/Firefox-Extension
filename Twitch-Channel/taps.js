@@ -82,7 +82,7 @@ document.addEventListener("click", (e) => {
 
   else if (e.target.id === "tabs-duplicate") {
     callOnActiveTab((tab) => {
-      browser.tabs.duplicate(tab.id);
+      browser.tabs.create({url: "https://www.twitch.tv"});
     });
   }
 
