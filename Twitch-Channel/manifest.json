@@ -11,8 +11,8 @@
   },
   "author": "Kyaw Thura",
   "sidebar_action": {
-    "default_icon": "icons/star.png",
-    "default_title" : "Note",
+    "default_icon": "icons/twitch.png",
+    "default_title" : "Twitch Channel",
     "default_panel": "panel.html"
   },
   "permissions": ["tabs"]
